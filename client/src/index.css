@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* background-color: skyblue; */
+  background-color: #188ddb;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -30,10 +31,7 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border-radius: 8px;
@@ -42,9 +40,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: whitesmoke;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: auto;
+  margin-top: 10px;
+  width: 50%;
 }
 button:hover {
   border-color: #646cff;
@@ -54,15 +55,27 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+#appName {
+  color: whitesmoke;
+  
+  border-radius: solid black 10px ;
+  text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+  
+  font-size: 8rem;
+  /* margin-bottom: 50%; */
+}
+#questForm {
+  padding: 2em;
+  display: grid;
+  width: 50%;
+  background: lightskyblue;
+  border-radius: 20px;
+  color: black;
+  font-size: 1em;
+}
+
+
+option {
+  text-align: center;
+  
 }

@@ -4,11 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+ button {
+  margin: 10px;
+ }
 
-.questContainer {
-  background-color: aliceblue;
-}
-
-h1 {
-  font-size: 200%;
-}
+/* 
+#appName {
+  font-size: 300%;
+} */
