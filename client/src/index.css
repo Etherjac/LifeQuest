@@ -72,6 +72,7 @@ button:focus-visible {
   border-radius: 20px;
   color: black;
   font-size: 1em;
+  margin: auto;
 }
 
 
